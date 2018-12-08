@@ -9,15 +9,12 @@
 }
 .nav-link {
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Lato', sans-serif;
 }
 .tramites {
-  width: 98%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3%;
-  background-color: #fec463;
 }
 .titulo1 {
   color: black;
@@ -26,4 +23,11 @@
   font-family: 'Lato', sans-serif;
   margin-left: 2%;
   padding-top: 2%;
+}
+.nav-tabs {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.container-fluid {
+  background-color: rgba(245, 160, 44, 0.4);
 }
