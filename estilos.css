@@ -1,4 +1,5 @@
 @media (min-width: 992px) {
+/*Head*/
   .logo {
     padding-left: 5%;
     padding-bottom: 4%;
@@ -35,12 +36,14 @@
     font-size: 10px;
     margin-left: 9%;
   }
-  .galeria {
+
+/*Galería-Home*/
+  .galeriahome {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: bolder;
   }
-  .galeria2 {
+  .galeria2home {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -48,7 +51,9 @@
   .slide {
     margin-bottom: 3%;
   }
-  .titulo1 {
+
+/*Trámites-Home*/
+  .titulo1home {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -64,16 +69,16 @@
   .container-fluid {
     background-color: white;
   }
-  .tramites {
+  .tramiteshome {
     width: 60%;
     margin-left: 3%;
   }
-  .tramite2 {
+  .tramite2home {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 1%;
   }
-  .boton {
+  .botonhome {
     width: 28%;
     height: 32px;
     margin-left: 73%;
@@ -85,28 +90,35 @@
     background-color: #f5a02c;
     color: white;
   }
-  .icono1 {
+  .iconoshome {
+    background-color: rgb(248, 249, 250);
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+  .icono1home {
     width: 45%;
     margin-top: 20%;
     margin-left: 18%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .icono2 {
+  .icono2home {
     width: 45%;
     margin-top: 36%;
     margin-left: 25%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .icono3 {
+  .icono3home {
     width: 45%;
     margin-top: 39%;
     margin-left: 30%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .nombreicono1 {
+  .nombreicono1home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -115,13 +127,13 @@
     margin-top: 10%;
     padding-bottom: 20%;
   }
-  .nombreicono2 {
+  .nombreicono2home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
     margin-top: 10%;
   }
-  .nombreicono3 {
+  .nombreicono3home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -129,12 +141,14 @@
     text-align: center;
     padding-bottom: 15%;
   }
-  .noticias2 {
+
+/*Noticias y Barra Lateral-Home*/
+  .noticias2home {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 3%;
   }
-  .boton2 {
+  .boton2home {
     width: 25%;
     height: 32px;
     margin-top: 6%;
@@ -145,7 +159,7 @@
     background-color: #f5a02c;
     color: white;
   }
-  .lateral {
+  .lateralhome {
     width: 100%;
     padding-bottom: 2%;
   }
@@ -182,16 +196,11 @@
     margin-top: 2px;
     margin-left: 33%;
   }
-  .iconos {
-    background-color: rgb(248, 249, 250);
-    border-radius: 10px;
-    border-width: 2px;
-    margin-left: 3%;
-    margin-bottom: 5%;
-  }
-  .noticias {
+  .noticiashome {
     background-color: rgb(248, 249, 250);
   }
+
+/*Footer*/
   .footer {
     display: grid;
     grid-template-columns: 30% 40% 20% 10%;
@@ -255,6 +264,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+/*Head*/
   .logo {
     padding-left: 5%;
     padding-bottom: 4%;
@@ -292,12 +302,14 @@
     font-family: 'Lato', sans-serif;
     font-size: 10px;
   }
-  .galeria {
+
+/*Galería-Home*/
+  .galeriahome {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: bolder;
   }
-  .galeria2 {
+  .galeria2home {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -305,7 +317,9 @@
   .slide {
     margin-bottom: 3%;
   }
-  .titulo1 {
+
+/*Trámites-Home*/
+  .titulo1home {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -321,16 +335,16 @@
   .container-fluid {
     background-color: white;
   }
-  .tramites {
+  .tramiteshome {
     width: 60%;
     margin-left: 3%;
   }
-  .tramite2 {
+  .tramite2home {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 1%;
   }
-  .boton {
+  .botonhome {
     width: 38%;
     height: 32px;
     margin-left: 60%;
@@ -342,37 +356,44 @@
     background-color: #f5a02c;
     color: white;
   }
-  .icono1 {
+  .iconoshome {
+    background-color: rgb(248, 249, 250);
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+  .icono1home {
     width: 45%;
     margin-top: 20%;
     margin-left: 14%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .icono2 {
+  .icono2home {
     width: 45%;
     margin-top: 36%;
     margin-left: 14%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .icono3 {
+  .icono3home {
     width: 45%;
     margin-top: 39%;
     margin-left: 20%;
     margin-right: auto;
     padding-bottom: 12%;
   }
-  .nombreicono1 {
+  .nombreicono1home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: auto;
     margin-top: 10%;
     padding-bottom: 20%;
   }
-  .nombreicono2 {
+  .nombreicono2home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -380,7 +401,7 @@
     text-align: center;
     margin-right: 25%;
   }
-  .nombreicono3 {
+  .nombreicono3home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
@@ -389,12 +410,14 @@
     padding-bottom: 15%;
     margin-right: 10%;
   }
-  .noticias2 {
+
+/*Noticias y Barra Lateral-Home*/
+  .noticias2home {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-left: 3%;
   }
-  .boton2 {
+  .boton2home {
     width: 35%;
     height: 32px;
     margin-top: 6%;
@@ -406,7 +429,7 @@
     background-color: #f5a02c;
     color: white;
   }
-  .lateral {
+  .lateralhome {
     width: 44%;
     padding-bottom: 2%;
     padding-left: 10%;
@@ -444,16 +467,11 @@
     margin-top: 2px;
     margin-left: 33%;
   }
-  .iconos {
-    background-color: rgb(248, 249, 250);
-    border-radius: 10px;
-    border-width: 2px;
-    margin-left: 3%;
-    margin-bottom: 5%;
-  }
-  .noticias {
+  .noticiashome {
     background-color: rgb(248, 249, 250);
   }
+
+/*Footer*/
   .footer {
     display: grid;
     grid-template-columns: 30% 30% 30% 10%;
@@ -518,6 +536,7 @@
 }
 
 @media (max-width: 767px) {
+/*Head*/
   .logo {
     padding-left: 5%;
     padding-bottom: 4%;
@@ -551,12 +570,14 @@
     font-family: 'Lato', sans-serif;
     font-size: 10px;
   }
-  .galeria {
+
+/*Galería-Home*/
+  .galeriahome {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: bolder;
   }
-  .galeria2 {
+  .galeria2home {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -564,7 +585,9 @@
   .slide {
     margin-bottom: 3%;
   }
-  .titulo1 {
+
+/*Trámites-Home*/
+  .titulo1home {
     grid-column-start: 1;
     grid-column-end: 2;
     font-weight: 900;
@@ -577,15 +600,15 @@
   .container-fluid {
     background-color: white;
   }
-  .tramites {
+  .tramiteshome {
     width: 95%;
   }
-  .tramite2 {
+  .tramite2home {
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
   }
-  .boton {
+  .botonhome {
     grid-column-start: 2;
     grid-column-end: 3;
     width: 30%;
@@ -599,47 +622,56 @@
     background-color: #f5a02c;
     color: white;
   }
-  .icono1 {
+  .iconoshome {
+    background-color: rgb(248, 249, 250);
+    border-radius: 10px;
+    border-width: 2px;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+  .icono1home {
     width: 20%;
     margin-top: 5%;
     margin-left: 4%;
   }
-  .icono2 {
+  .icono2home {
     width: 20%;
     padding-bottom: 20%;
     margin-left: 4%;
   }
-  .icono3 {
+  .icono3home {
     width: 20%;
     margin-top: 1%;
     padding-bottom: 6%;
     margin-left: 4%;
   }
-  .nombreicono1 {
+  .nombreicono1home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
     margin-left: 50%;
     padding-bottom: 20%;
   }
-  .nombreicono2 {
+  .nombreicono2home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
     margin-left: 50%;
   }
-  .nombreicono3 {
+  .nombreicono3home {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-align: center;
     margin-left: 50%;
   }
-  .noticias2 {
+
+/*Noticias y Barra Lateral-Home*/
+  .noticias2home {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .boton2 {
+  .boton2home {
     width: 35%;
     height: 32px;
     margin-top: 6%;
@@ -651,7 +683,7 @@
     color: white;
     margin-left: 45%;
   }
-  .lateral {
+  .lateralhome {
     width: 100%;
     padding-bottom: 2%;
   }
@@ -687,16 +719,11 @@
     margin-top: 2px;
     margin-left: 33%;
   }
-  .iconos {
-    background-color: rgb(248, 249, 250);
-    border-radius: 10px;
-    border-width: 2px;
-    margin-left: 3%;
-    margin-bottom: 5%;
-  }
-  .noticias {
+  .noticiashome {
     background-color: rgb(248, 249, 250);
   }
+
+/*Footer*/
   .footer {
     display: grid;
     grid-template-columns: 100%;
