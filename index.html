@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Ilustre Municipalidad de San José de Maipo</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Sitio oficial de la Ilustre Municipalidad de San José de Maipo acá podrás encontrar diversas noticias, eventos, información comunal y mucho más.">
+    <meta name="keywords" content="Municipalidad, Maipo, San José de Maipo, Comuna, Cajón del Maipo">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
@@ -13,29 +13,33 @@
   <body>
 
 <!--Barra Superior-->
-    <div class="superior">
       <div class="row">
-        <div class="col-sm">
-          <img src="Imágenes/Superiores/logo.png" class="logo" alt="Responsive image">
+        <div class="col">
+          <a title="Página de Inicio" href="index.html"><img src="Imágenes/Superiores/logo.png" class="logo" alt="Logo a color de la Municipalidad de San José de Maipo"></a>
         </div>
-        <div class="col-sm">
-          <img src="Imágenes/Superiores/transparencia2.png" class="ley" alt="Responsive image">
-          <img src="Imágenes/Superiores/transparencia1.png" class="ley" alt="Responsive image">
-          <img src="Imágenes/Superiores/lobby.png" class="ley" alt="Responsive image">
-          <img src="Imágenes/Superiores/emergencias.png" class="ley" alt="Responsive image">
+        <div class="col">
+          <a title="Portal Transparencia" href="https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=b3cbb68bd70bc6833b42ea3654020ef7"><img src="Imágenes/Superiores/transparencia2.png" class="ley" alt="Solicitar Información Ley de Transparencia"></a>
+          <a title="Transparencia Activa" href="https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU292"><img src="Imágenes/Superiores/transparencia1.png" class="ley" alt="Transparencia Activa, Ley de Transparencia"></a>
+          <a title="Plataforma Ley del Lobby" href="https://www.leylobby.gob.cl/instituciones/MU292"><img src="Imágenes/Superiores/lobby.png" class="ley" alt="Plataforma Ley del Lobby"></a>
+          <img src="Imágenes/Superiores/emergencias.png" class="ley" alt="Teléfonos de Emergencias">
         </div>
       </div>
-    </div>
 
 <!--Barra de Navegación-->
-    <nav class="navbar navbar-dark bg-dark">
-      <ul class="nav nav-tabs">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#" style="color:#262626;">HOME</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Municipalidad</a>
-          <div class="dropdown-menu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#262626;">
+            MUNICIPALIDAD
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-header">Autoridades y Gestión</a>
             <a class="dropdown-item" href="#">Alcalde</a>
             <a class="dropdown-item" href="#">Concejo</a>
@@ -63,7 +67,9 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Comuna</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#262626;">
+            COMUNA
+          </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Ubicación y Límites</a>
             <a class="dropdown-item" href="#">Historia</a>
@@ -76,7 +82,9 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Trámites</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#262626;">
+            TRÁMITES
+          </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Permiso de Circulación</a>
             <a class="dropdown-item" href="#">Validación Permiso Online</a>
@@ -89,7 +97,9 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#262626;">
+            SERVICIOS
+          </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Programa Chile Crece Contigo</a>
             <a class="dropdown-item" href="#">Formulario de Solicitud de Certificados para Organizaciones Comunitarias</a>
@@ -104,33 +114,191 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fondos</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#262626;">
+            FONDOS
+          </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">FONDEVE y SUBVENCIONES 2018</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Turismo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Actividades</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:#262626;">TURISMO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:#262626;">ACTIVIDADES</a>
+          </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </nav>
+      <div class="buscador">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+    </div>
+  </nav>
 
-<!--Container-->
+
+<!--Galería-->
     <div class="container-fluid">
-      <div class="tramites">
-        <h2 class="titulo1">Trámites Online</h2>
-        <button type="button" class="btn btn-primary btn-sm">Más Trámites</button>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Imágenes/Home/geoparque.jpg" alt="Montañas de Cajón del Maipo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="galeriahome">Geoparque Nacional</h5>
+              <p class="galeria2home">Cajón del Maipo podría ser declarado Geoparque mundial por la Unesco</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Imágenes/Home/nieve.jpg" alt="Nieve cayendo en las calles de San José de Maipo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="galeriahome">Caída de nieve en San José de Maipo</h5>
+              <p class="galeria2home">Hay alerta amarilla por caída de nieve en la Provincia Cordillera y 5 comunas de Santiago.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Imágenes/Home/simulacro.jpg" alt="Grupo de personas caminando en fila por el simulacro de aluvión">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="galeriahome">Exitoso Simulacro de Aluvión</h5>
+              <p class="galeria2home">El ejercicio de evacuación convocó a más de 180 vecinos</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+<!--Sección Trámites Online-->
+      <div class="tramiteshome">
+        <div class="tramite2home">
+          <h2 class="titulo1home">Trámites Online</h2>
+          <button type="button" class="botonhome">Más Trámites</button>
+        </div>
+      <div class="iconoshome">
+        <div class="row">
+          <div class="col-sm">
+            <a title="Permiso de Circulación" href="#"><img src="Imágenes/Home/permiso.png" class="icono1home" alt="Ícono de un auto"></a>
+            <h6 class="nombreicono1home">Permiso de Circulación</h6>
+          </div>
+          <div class="col-sm">
+            <a title="Primera Patente Municipal" href="#"><img src="Imágenes/Home/patente.png" class="icono2home" alt="Ícono de documento"></a>
+            <h6 class="nombreicono2home">Primera Patente Municipal</h6>
+          </div>
+          <div class="col-sm">
+            <a title="Certificado de Dirección de Obras" href="#"><img src="Imágenes/Home/casco.png" class="icono3home" alt="Ícono de un casco de obra"></a>
+            <h6 class="nombreicono3home">Certificados de Dirección de Obras</h6>
+          </div>
+        </div>
+      </div>
+      </div>
+
+<!--Sección Noticias y Barra Lateral-->
+      <div class="noticiashome">
+        <div class="noticias2home">
+          <h2 class="titulo1home">Noticias</h2>
+          <button type="button" class="boton2home">Ver todas las noticias</button>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="Imágenes/Home/noticia1.jpg" alt="Delegación Brasilera junto a director de DIDECO">
+              <div class="card-body">
+                <h5 class="card-title">Afromix Chile nace en el Cajón del Maipo</h5>
+                <p class="card-text">Se desarrolló audiencia entre delegación Brasileña y representantes locales de Afromix junto a Director DIDECO y Encargado de Deportes con el fin de estrechar los lazos entre ambas naciones</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="Imágenes/Home/noticia3.jpg" alt="Puesto de Disfruta Santiago en la exposición VYVA">
+              <div class="card-body">
+                <h5 class="card-title">Expo VYVA 2018</h5>
+                <p class="card-text">VYVA es la vitrina turística más importante de Chile y este año se realizó en la explanada del concurrido centro de eventos de la zona oriente de Santiago, Centro Parque.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="Imágenes/Home/noticia2.jpg" alt="Grupo de ganaderos del prodesal de San José de Maipo">
+                <div class="card-body">
+                  <h5 class="card-title">Curso de ganadería regenerativa y praderas</h5>
+                  <p class="card-text">Con un grupo de ganaderos del Prodesal de San José de Maipo se realiza en el Melocoton el curso de ganadería regenerativa y praderas a cargo de la empresa Efecto Manada</p>
+                  <a href="#" class="btn btn-primary">Leer más</a>
+                </div>
+              </div>
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="Imágenes/Home/noticia4.jpg" alt="Personas del encuentro socio-laboral OMIL">
+                <div class="card-body">
+                  <h5 class="card-title">III Encuentro Socio-Laboral OMIL</h5>
+                  <p class="card-text">Con gran convocatoria se está realizando este encuentro socio laboral, abordando temas de empleabilidad extranjeros, contratos, apoyo al emprendimiento ,cotizaciones entre otros temas</p>
+                  <a href="#" class="btn btn-primary">Leer más</a>
+                </div>
+              </div>
+            </div>
+          <div class="col-sm">
+            <a title="Cuenta Pública Municipal" href="https://drive.google.com/file/d/1fhQl2ssypCVZ6i25SKv6rXd9_t129q6X/view"><img src="Imágenes/Home/lateral1.png" class="lateralhome" alt="Cuenta Pública 2017"></a>
+            <img src="Imágenes/Home/lateral2.png" class="lateralhome" alt="Horario del Juzgado de Policía Local">
+            <a title="Plan de Desarrollo Comunal" href="https://es.surveymonkey.com/r/IMSJM"><img src="Imágenes/Home/lateral3.jpg" class="lateralhome" alt="Participación para PLADECO 2018-2022"></a>
+            <a title="Plan Regulador de San José de Maipo" href="https://drive.google.com/file/d/0BwTVQeTBuTb4aXcwWjdDYVBpMmc/edit"><img src="Imágenes/Home/lateral4.jpg" class="lateralhome" alt="Plan Regulador de San José de Maipo"></a>
+            <img src="Imágenes/Home/lateral5.jpg" class="lateralhome" alt="Teléfonos de denuncia para prevenir incendios forestales">
+            <a title="Academia Capacitación SUBDERE" href="http://www.academia.subdere.gov.cl/"><img src="Imágenes/Home/lateral6.png" class="lateralhome" alt="Academia de capacitación SUBDERE"></a>
+          </div>
+        </div>
       </div>
     </div>
 
-
+<!--Footer-->
+    <footer>
+      <div class="footer">
+        <div class="footer2">
+          <h3 class="titulofooter">Información</h3>
+          <p>Municipalidad de San José de Maipo
+          <br>
+          Alcalde:Luis Pezoa Álvarez
+          <br>
+          Dirección: Camino al Volcán
+          <br>
+          N°19775
+          <br>
+          Teléfono: (2) 26784900
+          <br>
+          Horario de atención al público:
+          <br>
+          Lunes a jueves de 8:30 a17:30 hrs
+          <br>
+          Viernes de 8:30 a16:30 hrs
+          </p>
+        </div>
+        <div class="footer3">
+          <p><a href="#" style="color:white;">Preguntas Frecuentes</a></p>
+          <br>
+          <p><a href="https://www.sanjosedemaipo.cl/contacto/" style="color:white;">Contacto</a></p>
+          <br>
+          <p><a href="https://www.sanjosedemaipo.cl/municipalidad/directorio-telefonico/" style="color:white;">Directorio Telefónico</a></p>
+          <br>
+          <p><a href="http://correo.sanjosedemaipo.cl/" style="color:white;">Correo Institucional</a></p>
+        </div>
+        <div class="footer4">
+          <a title="Página de Inicio" href="index.html"><img src="Imágenes/Footer/logo2.png" class="logofooter" alt="Logo en blanco de la Municipalidad de San José de Maipo"></a>
+        </div>
+        <div class="footer5">
+          <a title="Cuenta de Facebook San José de Maipo" href="https://www.facebook.com/imunicipalidadsanjosedemaipo/"><img src="Imágenes/Footer/facebook.png" class="social" alt="Ícono de Facebook"></a>
+          <a title="Cuenta de Twitter de San José de Maipo" href="https://twitter.com/MuniSJdeMaipo"><img src="Imágenes/Footer/twitter.png" class="social" alt="Ícono de Twitter"></a>
+          <a title="Cuenta de Instagram de San José de Maipo" href="#"><img src="Imágenes/Footer/instagram.png" class="social" alt="Ícono de Instagram"></a>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
